@@ -1,0 +1,20 @@
+# La mas sencilla e intuitiva
+matriz = []
+spromedio=0
+filas=int (input("Digite número de filas:"))
+columnas=int (input("Digite número de columnas:"))
+for i in range(filas):
+    matriz.append([])
+    for j in range(columnas):
+        matriz[i].append(None)
+
+for j in range(0,filas):
+    for i in range(0,columnas):
+        matriz[j][i]=int (input("Digite nota:"))
+        spromedio = matriz[j][i] + spromedio
+    promedio=spromedio/columnas
+    print(promedio)
+    promedio = 0
+    spromedio=0
+
+print(matriz)
