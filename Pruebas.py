@@ -7,7 +7,7 @@ for i in range(0,10,1):
 val= float(input())
 for j in range(0,10,1):
     if(val == valores[j]):
-        print("hola")
+        print("hola estoy por acá")
     
 
 
